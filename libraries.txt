@@ -1,0 +1,38 @@
+Arduino IDE Library Manager - Install these libraries:
+
+Required Libraries:
+- "ESPAsyncWebServer" by lacamera
+- "AsyncTCP" by dvarrel  
+- "ArduinoJson" by Benoit Blanchon
+
+Sensor Libraries (choose based on your sensors):
+- "OneWire" by Paul Stoffregen
+- "DallasTemperature" by Miles Burton
+- "NewPing" by Tim Eckel
+- "ServoESP32" by Jaroslav Paral
+
+Optional Libraries:
+- "NTPClient" by Fabrice Weinberg
+- "PubSubClient" by Nick O'Leary
+
+Installation Instructions:
+1. Open Arduino IDE
+2. Go to Sketch > Include Library > Manage Libraries
+3. Search for each library name above
+4. Install the library by the specified author
+5. Restart Arduino IDE after installation
+
+Alternative Installation (if not found in Library Manager):
+1. Download libraries from GitHub:
+   - ESPAsyncWebServer: https://github.com/me-no-dev/ESPAsyncWebServer
+   - AsyncTCP: https://github.com/me-no-dev/AsyncTCP
+2. Extract and place in Arduino/libraries folder
+3. Restart Arduino IDE
+
+Built-in ESP32 Libraries (no installation needed):
+- WiFi
+- WebServer
+- SPIFFS
+- FS
+- Update
+- Preferences
